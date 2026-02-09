@@ -1,7 +1,7 @@
 {
   "name": "pinia-colada-plugin-recently-successful",
   "type": "module",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A plugin for Pinia Colada that keeps track of recently successful actions.",
   "author": "Estéban Soubiran <esteban@soubiran.dev>",
   "license": "MIT",
