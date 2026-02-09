@@ -1,0 +1,33 @@
+{
+  "name": "pinia-colada-plugin-recently-successful",
+  "type": "module",
+  "version": "0.0.0",
+  "private": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.mts",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "main": "./dist/index.mjs",
+  "types": "./dist/index.d.mts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "tsdown --watch",
+    "build": "tsdown"
+  },
+  "peerDependencies": {
+    "vue": "^3.5.27"
+  },
+  "dependencies": {
+    "@pinia/colada": "^0.21.3"
+  },
+  "devDependencies": {
+    "@tsconfig/node24": "^24.0.4",
+    "tsdown": "^0.20.3",
+    "typescript": "^5.9.3",
+    "vue": "^3.5.27"
+  }
+}
