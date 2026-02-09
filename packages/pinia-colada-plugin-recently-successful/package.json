@@ -1,7 +1,7 @@
 {
   "name": "pinia-colada-plugin-recently-successful",
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.0.4",
   "keywords": [
     "pinia-colada-plugin"
   ],
