@@ -7,7 +7,7 @@
     "lint": "eslint",
     "lint:fix": "eslint --fix",
     "build": "pnpm --filter ./packages/* run build",
-    "release": "bumpp --sign"
+    "release": "bumpp -r --sign"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^7.3.0",
