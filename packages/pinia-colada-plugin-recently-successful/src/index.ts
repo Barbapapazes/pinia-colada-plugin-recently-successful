@@ -1,4 +1,4 @@
-import type { _EmptyObject, PiniaColadaPlugin, UseMutationEntry } from '@pinia/colada'
+import type { PiniaColadaPlugin, UseMutationEntry } from '@pinia/colada'
 import type { ShallowRef } from 'vue'
 import { useMutationCache } from '@pinia/colada'
 import { shallowRef } from 'vue'
@@ -32,9 +32,9 @@ export function PiniaColadaRecentlySuccessfulPlugin(options: PiniaColadaRecently
   const globalDuration = options.recentlySuccessfulDuration
 
   return ({ pinia }) => {
-    const mutationCache = useMutationCache(pinia)
     const internalState = new WeakMap<UseMutationEntry<any, any, any>, InternalState>()
 
+    const mutationCache = useMutationCache(pinia)
     mutationCache.$onAction(({ name, args, after, onError }) => {
       if (name === 'extend') {
         const [entry] = args as [UseMutationEntry<any, any, any>]
@@ -116,10 +116,10 @@ export function PiniaColadaRecentlySuccessfulPlugin(options: PiniaColadaRecently
 
 declare module '@pinia/colada' {
   /* eslint-disable-next-line unused-imports/no-unused-vars */
-  interface UseMutationOptions<TData, TVars, TError, TContext extends Record<any, any> = _EmptyObject> extends PiniaColadaRecentlySuccessfulPluginOptions {}
+  interface UseMutationOptions<TData, TVars, TError, TContext> extends PiniaColadaRecentlySuccessfulPluginOptions {}
 
   /* eslint-disable-next-line unused-imports/no-unused-vars */
-  interface UseMutationEntryExtensions<TData, TVars, TError, TContext extends Record<any, any> = _EmptyObject> {
+  interface UseMutationEntryExtensions<TData, TVars, TError, TContext> {
     /**
      * Indicates whether the mutation was recently successful.
      */

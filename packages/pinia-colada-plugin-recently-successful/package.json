@@ -3,6 +3,9 @@
   "type": "module",
   "version": "0.0.0",
   "private": false,
+  "keywords": [
+    "pinia-colada-plugin"
+  ],
   "exports": {
     ".": {
       "types": "./dist/index.d.mts",
@@ -22,7 +25,7 @@
     "vue": "^3.5.27"
   },
   "dependencies": {
-    "@pinia/colada": "^0.21.3"
+    "@pinia/colada": "^0.21.4"
   },
   "devDependencies": {
     "@tsconfig/node24": "^24.0.4",
