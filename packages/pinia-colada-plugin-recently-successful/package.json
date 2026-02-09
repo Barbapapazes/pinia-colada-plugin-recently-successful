@@ -17,9 +17,13 @@
   "files": [
     "dist"
   ],
+  "engines": {
+    "node": ">=24"
+  },
   "scripts": {
     "dev": "tsdown --watch",
-    "build": "tsdown"
+    "build": "tsdown",
+    "prepack": "pnpm run build"
   },
   "peerDependencies": {
     "vue": "^3.5.27"
