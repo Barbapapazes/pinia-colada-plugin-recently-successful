@@ -8,7 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@pinia/colada": "^0.21.4",
+    "@pinia/colada": "^1.2.1",
     "pinia": "^3.0.4",
     "pinia-colada-plugin-recently-successful": "link:../packages/pinia-colada-plugin-recently-successful",
     "vue": "^3.5.27"
