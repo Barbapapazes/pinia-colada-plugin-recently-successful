@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@pinia/colada": "^1.2.1",
-    "pinia": "^3.0.4",
+    "pinia": "^4.0.2",
     "pinia-colada-plugin-recently-successful": "link:../packages/pinia-colada-plugin-recently-successful",
     "vue": "^3.5.27"
   },
@@ -17,7 +17,7 @@
     "@types/node": "^24.10.9",
     "@vitejs/plugin-vue": "^6.0.4",
     "@vue/tsconfig": "^0.8.1",
-    "typescript": "~5.9.3",
+    "typescript": "~7.0.2",
     "vite": "8.0.0-beta.0"
   }
 }
