@@ -35,14 +35,14 @@
     "prepack": "pnpm run build"
   },
   "peerDependencies": {
-    "@pinia/colada": "^1.2.1",
-    "vue": "^3.5.27"
+    "@pinia/colada": "^1.4.2",
+    "vue": "^3.5.41"
   },
   "devDependencies": {
-    "@pinia/colada": "^1.2.1",
+    "@pinia/colada": "^1.4.2",
     "@tsconfig/node24": "^24.0.4",
-    "tsdown": "^0.22.0",
+    "tsdown": "^0.22.14",
     "typescript": "^6.0.3",
-    "vue": "^3.5.34"
+    "vue": "^3.5.41"
   }
 }
