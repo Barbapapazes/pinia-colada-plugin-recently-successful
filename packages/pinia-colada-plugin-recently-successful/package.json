@@ -42,7 +42,7 @@
     "@pinia/colada": "^1.2.1",
     "@tsconfig/node24": "^24.0.4",
     "tsdown": "^0.22.0",
-    "typescript": "^6.0.3",
+    "typescript": "^7.0.2",
     "vue": "^3.5.34"
   }
 }
